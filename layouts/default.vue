@@ -5,9 +5,7 @@
     <header>
       <NavBar />
     </header>
-
-    <Nuxt />
-
+    <slot />
     <AppFooter />
   </div>
 </template>
