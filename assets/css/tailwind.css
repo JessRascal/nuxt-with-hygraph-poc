@@ -1,3 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Z-INDEX */
+.z-index-nav {
+  @apply z-50;
+}
+
 /* HEADINGS */
 h1,
 h2,
