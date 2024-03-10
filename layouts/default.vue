@@ -1,11 +1,13 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
-    <header>
+  <div class="flex flex-col min-h-dvh">
+    <header class="sticky top-0 z-index-nav">
       <AppNav />
     </header>
-    <slot />
+    <main class="flex-grow p-4">
+      <slot />
+    </main>
     <AppFooter />
   </div>
 </template>
