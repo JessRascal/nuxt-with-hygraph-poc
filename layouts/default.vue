@@ -3,7 +3,7 @@
 <template>
   <div>
     <header>
-      <NavBar />
+      <AppNav />
     </header>
     <slot />
     <AppFooter />
